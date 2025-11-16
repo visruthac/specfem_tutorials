@@ -28,3 +28,10 @@ cd specfem2d
 # or
 cd specfem3d
 ```
+3. Check the directory paths in the scripts before running.
+
+4. Run the example:
+
+```bash
+./run_example.sh
+```

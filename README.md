@@ -1,3 +1,22 @@
 # specfem_tutorials
 
+This repository contains tutorials and example scripts for running **SPECFEM** simulations in both 2D and 3D.
+
+---
+
+## Repository Structure
+
+
+- **specfem2d/**: Contains 2D tutorial examples. Includes an example `DATA` folder to run `run_example.sh` directly. The notebook provides an overview of the file structure and workflow.  
+- **specfem3d/**: Contains 3D tutorial examples. The notebook provides guidance on the structure and example runs.
+
+---
+
+## Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/visruthac/specfem_tutorials.git
+cd specfem_tutorials
 

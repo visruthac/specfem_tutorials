@@ -40,7 +40,7 @@ else
     mpirun -n "$NPROC" ./bin/xmeshfem2D > OUTPUT_FILES/output_meshfem2d.txt
 
     echo "Running MPI solver on $NPROC processors..."
-    /usr/bin/mpirun -n "$NPROC" ./bin/xspecfem2D > OUTPUT_FILES/output_solver.txt
+    mpirun -n "$NPROC" ./bin/xspecfem2D > OUTPUT_FILES/output_solver.txt
 fi
 
 echo

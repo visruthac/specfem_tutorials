@@ -19,10 +19,12 @@ This repository contains tutorials and example scripts for running **SPECFEM** s
 ```bash
 git clone https://github.com/visruthac/specfem_tutorials.git
 cd specfem_tutorials
-# End of setup commands
+```
 
 2. Navigate to the desired folder (2D or 3D):
 
+```bash
 cd specfem2d
 # or
 cd specfem3d
+```

@@ -31,19 +31,19 @@ echo "The simulation will run on NPROC = " $NPROC " MPI tasks"
 echo
 echo " running mesher generation on $NPROC processors..."
 echo
-/usr/bin/mpirun -n $NPROC ./bin/xmeshfem3D
+mpirun -n $NPROC ./bin/xmeshfem3D
 
 # runs database generation
 echo
 echo "  running database generation on $NPROC processors..."
 echo
-/usr/bin/mpirun -n $NPROC ./bin/xgenerate_databases
+mpirun -n $NPROC ./bin/xgenerate_databases
 
 # runs simulation
 echo
 echo "  running solver on $NPROC processors..."
 echo
-/usr/bin/mpirun -n $NPROC ./bin/xspecfem3D
+mpirun -n $NPROC ./bin/xspecfem3D
 
 echo
 echo "see results in directory: OUTPUT_FILES/"
